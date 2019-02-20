@@ -47,7 +47,7 @@ def greeting(sentence):
  
     for word in sentence.split():
         if word.lower() in GREETING_INPUTS:
-            return random.choice(GREETING_RESPONSES)
+            return random.choice(GREETING_RESPONSES)  
 
 
 
